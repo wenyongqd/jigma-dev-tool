@@ -17,12 +17,12 @@ try {
 
 const validateUserForm = ({ name, password }) => {
   if (!name) {
-    const error = new ServerError("请传入用户名");
+    const error = new ServerError("Please input username");
     error.status = 400;
     throw error;
   }
   if (!password) {
-    const error = new ServerError("请传入密码");
+    const error = new ServerError("Please input password");
     error.status = 400;
     throw error;
   }
@@ -50,7 +50,7 @@ const authenticate = ({ name, password }) => {
   if (user.passwordHash === hash(password)) {
     return { ...sanitizeUser(user), token: btoa(user.id + "") };
   }
-  const error = new ServerError("用户名或密码不正确");
+  const error = new ServerError("Username or password is incorrect.");
   error.status = 400;
   throw error;
 };
@@ -58,7 +58,7 @@ const authenticate = ({ name, password }) => {
 function validateUser(id) {
   load();
   if (!users[id]) {
-    const error = new ServerError(`没有找到id为 "${id}" 的用户，请尝试清空数据库`);
+    const error = new ServerError(`No user with ID "${id}" was found. Please try to clear the database.`);
     error.status = 404;
     throw error;
   }
@@ -93,7 +93,7 @@ async function create({ name, password }) {
   const id = +hash(name);
   const passwordHash = hash(password);
   if (users[id]) {
-    const error = new ServerError(`用户名 "${name}" 已存在`);
+    const error = new ServerError(`User with "${name}" already existed`);
     error.status = 400;
     throw error;
   }

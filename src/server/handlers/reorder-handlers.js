@@ -1,8 +1,8 @@
 import { rest } from 'msw'
 import { kanbanDB, taskDB } from '../data/rest'
 
-// const apiUrl = process.env.REACT_APP_API_URL;
-const apiUrl = 'http://localhost:3001';
+const apiUrl = process.env.REACT_APP_API_URL;
+// const apiUrl = 'http://localhost:3001';
 export const reorderHandlers = [
   rest.post(`${apiUrl}/kanbans/reorder`, async (req, res, ctx) => {
     const { fromId, referenceId, type } = req.body;

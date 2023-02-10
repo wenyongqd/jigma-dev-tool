@@ -3,8 +3,9 @@ import * as accountDB from '../data/account'
 import { bootstrap } from '../bootstrap'
 import { ServerError } from '../util'
 
-// const apiUrl = process.env.REACT_APP_API_URL;
-const apiUrl = 'http://localhost:3001';
+const apiUrl = process.env.REACT_APP_API_URL;
+// const apiUrl = 'http://localhost:3001';
+console.log(apiUrl);
 
 const getToken = (req) =>
   req.headers.get("Authorization")?.replace("Bearer ", "");

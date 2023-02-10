@@ -15,7 +15,6 @@ const { Text, Link } = Typography
 const { TabPane } = Tabs
 
 export const DevTool = () => {
-  console.log("jjjj")
   const [visible, setVisible] = useState(false)
   const queryClient = new QueryClient(); // for default configuration
   return (

@@ -9,29 +9,29 @@ export const taskTypes = [
 
 export const tags = [
   {
-    name: "初始",
+    name: "Unassigned",
   },
   {
-    name: "中期",
+    name: "In development",
   },
   {
-    name: "结项",
+    name: "Closed",
   },
 ];
 
 export const epics = [
   {
-    name: "骑手物料表单开发",
+    name: "Courier Map Implementation",
     start: new Date("2020-12-10").getTime(),
     end: new Date("2021-01-11").getTime(),
   },
   {
-    name: "骑手地图开发",
+    name: "Courier Map Implementation",
     start: new Date("2021-01-12").getTime(),
     end: new Date("2021-02-14").getTime(),
   },
   {
-    name: "骑手地图开发",
+    name: "Courier Map Implementation",
     start: new Date("2021-01-12").getTime(),
     end: new Date("2021-02-14").getTime(),
   },
@@ -39,13 +39,13 @@ export const epics = [
 
 export const kanbans = [
   {
-    name: "待完成",
+    name: "Unassigned",
   },
   {
-    name: "开发中",
+    name: "In development",
   },
   {
-    name: "已完成",
+    name: "Closed",
   },
 ];
 
@@ -70,9 +70,9 @@ export const users = [
 
 export const projects = [
   {
-    name: "快递管理",
+    name: "Delivery Management",
     personId: 1,
-    organization: "快递组",
+    organization: "Delivery team",
     created: 1604989757139,
   },
 ];
@@ -134,7 +134,7 @@ export const tasks = [
     note: "",
   },
   {
-    name: "UI开发",
+    name: "UI Development",
     tags: [1],
     reporterId: 1,
     processorId: 2,
@@ -145,7 +145,7 @@ export const tasks = [
     note: "",
   },
   {
-    name: "自测",
+    name: "Unit Test",
     tags: [1],
     reporterId: 1,
     processorId: 2,
