@@ -4,6 +4,8 @@
   "description": "React + TS JIRA DevTools",
   "main": "dist/index.js",
   "license": "MIT",
+  "author": "wenyong",
+  "repository": "wenyongqd/jira-tool-test",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
