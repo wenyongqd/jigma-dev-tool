@@ -1,6 +1,6 @@
 {
   "name": "jira-tool-test",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "description": "React + TS JIRA DevTools",
   "main": "dist/index.js",
   "license": "MIT",
