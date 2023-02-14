@@ -21,17 +21,17 @@ export const tags = [
 
 export const epics = [
   {
-    name: "Courier Map Implementation",
+    name: "Courier Map Implement",
     start: new Date("2020-12-10").getTime(),
     end: new Date("2021-01-11").getTime(),
   },
   {
-    name: "Courier Map Implementation",
+    name: "Restaurant BOGO Promotion",
     start: new Date("2021-01-12").getTime(),
     end: new Date("2021-02-14").getTime(),
   },
   {
-    name: "Courier Map Implementation",
+    name: "Campaign  Billing Statement",
     start: new Date("2021-01-12").getTime(),
     end: new Date("2021-02-14").getTime(),
   },
@@ -51,35 +51,35 @@ export const kanbans = [
 
 export const users = [
   {
-    name: "高修文",
-    organization: "外卖组",
+    name: "Jeganath",
+    organization: "Restaurant team",
   },
   {
-    name: "熊天成",
-    organization: "外卖组",
+    name: "Kyle",
+    organization: "Courier team",
   },
   {
-    name: "郑华",
-    organization: "总部组",
+    name: "Wayne",
+    organization: "Customer team",
   },
   {
-    name: "王文静",
-    organization: "中台组",
+    name: "David",
+    organization: "Financial team",
   },
 ];
 
 export const projects = [
   {
-    name: "Delivery Management",
+    name: "Courier Management",
     personId: 1,
-    organization: "Delivery team",
+    organization: "Courier team",
     created: 1604989757139,
   },
 ];
 
 export const tasks = [
   {
-    name: "管理注册界面开发",
+    name: "Manage The Development of Registration Interface",
     tags: [1, 2],
     reporterId: 1,
     processorId: 2,
@@ -87,10 +87,10 @@ export const tasks = [
     kanbanId: 1,
     favorite: true,
     typeId: 1,
-    note: "请尽快完成",
+    note: "Please finish it promptly",
   },
   {
-    name: "管理登录界面开发",
+    name: "Develop The Login Interface",
     tags: [2],
     reporterId: 1,
     processorId: 2,
@@ -98,10 +98,10 @@ export const tasks = [
     kanbanId: 1,
     favorite: true,
     typeId: 1,
-    note: "请使用JWT完成",
+    note: "Using JWT",
   },
   {
-    name: "单元测试",
+    name: "Unit Tests",
     tags: [1],
     reporterId: 1,
     processorId: 2,
@@ -112,7 +112,7 @@ export const tasks = [
     note: "",
   },
   {
-    name: "性能优化",
+    name: "Optimize Performance of JVM",
     tags: [1],
     reporterId: 1,
     processorId: 2,
@@ -123,7 +123,7 @@ export const tasks = [
     note: "",
   },
   {
-    name: "权限管理界面开发",
+    name: "Create The Authorization Management Interface",
     tags: [1],
     reporterId: 1,
     processorId: 2,
@@ -145,7 +145,7 @@ export const tasks = [
     note: "",
   },
   {
-    name: "Unit Test",
+    name: "Improve Exception Handling of Ineligible BOGOs",
     tags: [1],
     reporterId: 1,
     processorId: 2,
