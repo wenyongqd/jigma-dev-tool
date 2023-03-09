@@ -1,6 +1,6 @@
 {
   "name": "jira-tool-test",
-  "version": "1.0.10",
+  "version": "1.0.22",
   "description": "React + TS JIRA DevTools",
   "main": "dist/index.js",
   "license": "MIT",
@@ -13,10 +13,10 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.12",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.4",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
@@ -52,7 +52,7 @@
     "dist"
   ],
   "dependencies": {
-    "antd": "^4.24.7",
+    "antd": "5.3.0",
     "msw": "^0.24.1",
     "react-query": "^3.5.10",
     "react-query-devtools": "^2.6.3"
