@@ -8,7 +8,6 @@ import { Reset } from './reset'
 import { FailRule } from './fail-rule'
 import { ReactQueryDevtoolsPanel } from 'react-query/devtools'
 // import { ReactQueryDevtools } from 'react-query-devtools'
-import 'antd/dist/antd.css'
 import {QueryClient, QueryClientProvider} from "react-query";
 
 const { Text, Link } = Typography
