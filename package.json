@@ -1,7 +1,7 @@
 {
-  "name": "jira-tool-test",
-  "version": "1.0.32",
-  "description": "React + TS JIRA DevTools",
+  "name": "jigma-tool-test",
+  "version": "1.0.1",
+  "description": "React + TS Jigma DevTools",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "wenyong",

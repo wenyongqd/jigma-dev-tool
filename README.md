@@ -1,1 +1,1 @@
-# Getting Started with Jira-tool-test
+# Getting Started with Jigma-tool-test
