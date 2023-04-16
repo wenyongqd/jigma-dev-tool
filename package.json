@@ -1,5 +1,5 @@
 {
-  "name": "jigma-tool-test",
+  "name": "jigma-dev-tool",
   "version": "1.0.1",
   "description": "React + TS Jigma DevTools",
   "main": "dist/index.js",
