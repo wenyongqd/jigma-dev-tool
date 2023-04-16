@@ -1,23 +1,27 @@
 # React & TypeScript Mastery: Best Practices 2023
 > Exclusive Developer Tool
 
-Installation and Usage:
+Installation:
 
-```sh
-npx jigma-dev-tool
+```shell
+yarn add jigma-dev-tool
 ```
+
+Set up an MSW service worker:
+
+```shell
+yarn msw init public
+```
+Usage:
+
 ```jsx
 import { DevTools, loadServer } from "jigma-dev-tool";
 
 loadServer(() =>
   ReactDOM.render(
     <React.StrictMode>
-      <Profiler id={"Root App"} phases={["mount"]}>
-        <AppProviders>
-          <DevTools />
-          <App />
-        </AppProviders>
-      </Profiler>
+      <DevTools />
+      <App />
     </React.StrictMode>,
     document.getElementById("root")
   )
@@ -25,7 +29,7 @@ loadServer(() =>
 ```
 
 ## Introduction to Two Main Features
-### 1. simulate the behavior of an API server
+### 1. Simulate the behavior of an API server
 Two main problems with traditional teaching project backend service:
 
 - Fragile service, limited number of requests, unstable, and if it goes down, learners cannot use it
@@ -33,7 +37,7 @@ Two main problems with traditional teaching project backend service:
 
 This developer tool simulate the behavior of an API server using MSW with Service Worker:
 
-![](public/image.png)
+![alt text](./src/images/image.png)
 
 - All requests are proxied by Service Worker
 - Backend logic processing is done through localStorage for CRUD operations
