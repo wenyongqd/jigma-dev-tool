@@ -1,6 +1,6 @@
 {
   "name": "jigma-dev-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React + TS Jigma DevTools",
   "main": "dist/index.js",
   "license": "MIT",
