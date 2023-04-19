@@ -37,7 +37,7 @@ Two main problems with traditional teaching project backend service:
 
 This developer tool simulate the behavior of an API server using MSW with Service Worker:
 
-![alt text](./src/images/image.png)
+![alt text](https://raw.githubusercontent.com/wenyongqd/jigma-dev-tool/master/src/images/image.png)
 
 - All requests are proxied by Service Worker
 - Backend logic processing is done through localStorage for CRUD operations
