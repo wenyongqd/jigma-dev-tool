@@ -75,6 +75,18 @@ export const projects = [
     organization: "Courier team",
     created: 1604989757139,
   },
+  {
+    name: "Metrics Performance UI Design",
+    personId: 2,
+    organization: "Customer team",
+    created: 1664881512345,
+  },
+  {
+    name: "Promotions Pipeline",
+    personId: 3,
+    organization: "Portal team",
+    created: 1665884516345,
+  },
 ];
 
 export const tasks = [
