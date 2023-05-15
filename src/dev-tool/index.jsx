@@ -36,7 +36,7 @@ export const DevTool = () => {
         </div>
       )}
       <Drawer
-        visible={visible}
+        open={visible}
         onClose={() => setVisible(false)}
         bodyStyle={{ padding: '10px' }}
         placement={'bottom'}
